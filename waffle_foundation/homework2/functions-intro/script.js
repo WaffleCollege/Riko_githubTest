@@ -5,7 +5,7 @@
 // 問題
 // 1.
 function add(numOne, numTwo) {
-    return numOne + numTwo;
+  return numOne + numTwo;
 }
 console.log(add(4, 3)); // => 7
 
@@ -20,10 +20,10 @@ console.log(add(1, 4, 5)); // => 5
 
 // 3.
 function simpleFunctionA() {
-    return "Hello simple function A";
+  return "Hello simple function A";
 }
 function simpleFunctionB() {
-    console.log("Hello simple function B");
+  console.log("Hello simple function B");
 }
 console.log(simpleFunctionA(), "--> From running Simple Function A"); // => Hello simple function A --> From running Simple Function A
 
@@ -47,7 +47,7 @@ return => "返す", console => Google Chromeのconsoleの部分に"表示する"
 
 // 4.
 function average(num1, num2) {
-    return (num1 + num2) / 2;
+  return (num1 + num2) / 2;
 }
 console.log(average(4, 6)); // => 5
 
@@ -58,7 +58,7 @@ console.log(average(75,89)); // => 82
 
 // 1.
 function square(num1) {
-    return num1 * num1;
+  return num1 * num1;
 }
 console.log(square(5)); // => 25
 /*
@@ -71,7 +71,7 @@ console.log(square(5)); // => 25
 */
 
 function square(x) {
-    return x * x;
+  return x * x;
 }
 console.log(square(13)); // => 169
 /*
@@ -79,21 +79,21 @@ console.log(square(13)); // => 169
 */
 
 function Square(monkey) {
-    return monkey ** 2;
+  return monkey ** 2;
 }
 console.log(Square(5)); // => 25
 
 
 // 1.
 function cube(x) {
-    return x ** 3;
+  return x ** 3;
 }
 console.log(cube(5)); // => 125
 
 
 // 2.
 function waffleMaker(topping) {
-    return topping + " " + "Waffle";
+  return topping + " " + "Waffle";
 }
 console.log(waffleMaker("Apple")); // => Apple Waffle
 
@@ -102,7 +102,7 @@ console.log(waffleMaker("Honey")); // => Honey Waffle
 
 // 3.
 function Circle(radius){
-    return radius ** 2 * 3.14;
+  return radius ** 2 * 3.14;
 }
 console.log(Circle(5)); // => 78.5
 
