@@ -47,11 +47,9 @@ console.log(typeof variableNumber);
 ※演算子typeofは、代入された値のType(型)を返す
 */
 
-
 // 問題2
 const variableBoolean = true;
 console.log(typeof variableBoolean); // => boolean
-
 
 // 問題3
 const variableUndefined = undefined;
@@ -79,7 +77,6 @@ console.log(circleArea); // => 78.5
 let a = "B";
 a = "A";
 console.log(a); // => A
-
 
 let b = "A";
 b = "B";
