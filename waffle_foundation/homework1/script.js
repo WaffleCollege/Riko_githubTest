@@ -1,6 +1,7 @@
 'use strict'
 // Please don't delete the 'use strict' line above
 
+// 変数入門
 // 演習問題
 // 1.
 const name = "Riko";
