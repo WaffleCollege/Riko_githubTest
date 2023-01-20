@@ -6,8 +6,8 @@
 let actual;
 let expected;
 /*
-ここでlet（actualとexpectedというハコを作っておくことで、その後毎問題でletと書く必要がなくなる）
-各関数の最初のテストでletと書くのもアリ
+ファイルの先頭でactualとexpectedの変数（ハコ）を宣言する。
+ここで"let"を書いておくことで、その後の各問題でletと書く必要がなくなる。各関数の最初のテストでletと書くのもアリ。
 */
 
 function isLongerThan(string, number) {
