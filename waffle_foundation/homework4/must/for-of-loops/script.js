@@ -448,3 +448,35 @@ if (JSON.stringify(actual) === JSON.stringify(expected)) {
   console.log("expected:", expected);
   console.groupEnd();
 }
+
+
+// 続・条件分岐
+// 考えてみよう
+// 1.
+console.log(!true); // => false
+console.log(!false); // => true
+console.log(!!true); // => true
+console.log(!!false); // => false
+
+
+// 2.
+console.log(!(3 === 3)); // => false
+console.log(!(5 !== 5)); // => true
+console.log(!3); // => false
+console.log(!!3); // => true
+console.log(!3 >= 3); // => false
+
+
+// 3.
+console.log(3 === 3 && 1); // => false;
+console.log(1 > 2 || 2 > 2 || 3 > 2); // => false 
+console.log(5 < 5 || 75 < 74); // => false
+
+
+
+
+
+
+
+
+
