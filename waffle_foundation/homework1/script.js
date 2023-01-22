@@ -64,7 +64,7 @@ const average = (numberA + numberB) / 2;
 console.log(average); // => 13
 
 
-//中級演習: Lab Dayおすすめ問題
+// 中級演習: Lab Dayおすすめ問題
 // 1.
 const circleDiameter = 10;
 const circleCircumference = circleDiameter * 3.14
@@ -82,3 +82,61 @@ console.log(a); // => A
 let b = "A";
 b = "B";
 console.log(b); // => B
+
+
+// 任意課題
+// 応用演習
+// 1.
+let value = 1;
+console.log(value);
+
+value = value * 2;
+console.log(value);
+
+value = 2 ** 2;
+console.log(value);
+
+value = 2 ** 3;
+console.log(value);
+
+value = 2 ** 4;
+console.log(value);
+
+value = 2 ** 5;
+console.log(value);
+
+value = 2 ** 6;
+console.log(value);
+
+
+// 2.
+const firstName = "Yan";
+const lastName = "Fan";
+const city = "Tokyo";
+
+console.log("Hello, my name is " + firstName + " " + lastName + ". I live in " + city + ".");
+
+
+// 3.
+let number;
+
+function counter(number) {
+  return number + 1;
+}
+
+console.log(counter(0));
+console.log(counter(1));
+console.log(counter(2));
+
+
+// 4.
+function isOdd(givenNumber) {
+  if (givenNumber % 2 === 1) {
+    console.log("Yes, it's odd.");
+  } else if (givenNumber % 2 === 0) {
+    console.log("No, it's even.");
+  }
+}
+
+isOdd(2);
+isOdd(3);
