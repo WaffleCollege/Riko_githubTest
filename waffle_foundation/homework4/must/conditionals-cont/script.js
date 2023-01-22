@@ -13,29 +13,39 @@ function isTeenager(age) {
   } else {
     return false;
   }
-} 
+}
 
 actual = isTeenager(3);
 expected = false;
-test(actual, expected);
+
+if (actual === expected) {
+  console.log("Yay! Test PASSED.");
+} else {
+  console.error("Test FAILED. Keep trying!");
+  console.log("    actual: ", actual);
+  console.log("  expected: ", expected);
+}
 
 actual = isTeenager(14);
 expected = true;
-test(actual, expected);
+
+if (actual === expected) {
+  console.log("Yay! Test PASSED.");
+} else {
+  console.error("Test FAILED. Keep trying!");
+  console.log("    actual: ", actual);
+  console.log("  expected: ", expected);
+}
 
 actual = isTeenager(22);
 expected = false;
-test(actual, expected);
 
-
-function test(actual, expected) { 
-  if (actual === expected) {
-    console.log("Test PASSED.");
-  } else {
-    console.error("Test FAILED. Keep trying!");
-    console.log("    actual:", actual);
-    console.log("  expected:", expected);
-  }
+if (actual === expected) {
+  console.log("Yay! Test PASSED.");
+} else {
+  console.error("Test FAILED. Keep trying!");
+  console.log("    actual: ", actual);
+  console.log("  expected: ", expected);
 }
 
 
