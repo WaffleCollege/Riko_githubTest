@@ -140,3 +140,4 @@ function isOdd(givenNumber) {
 
 isOdd(2);
 isOdd(3);
+isOdd(13);
