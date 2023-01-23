@@ -29,11 +29,11 @@ console.log(simpleFunctionA(), "--> From running Simple Function A"); // => Hell
 
 console.log(simpleFunctionB(), "--> From running Simple Function B"); // => Hello simple function B
 /*
-'--> From running Simple Function B'はundefinedとなる
+"--> From running Simple Function B"はundefinedとなる。
 */
 
 /*
-return => "返す", console => Google Chromeのconsoleの部分に"表示する"の意味
+※return => "返す", console => Google Chromeのconsoleの部分に"表示する"の意味
 
 関数『function simpleFunctionA()』の解説
 初めに、関数 simpleFunctionA()の中身でreturnで文字列の返り値"Hello simple function A"を返している。そして、console.logではまず関数 simpleFunctionA()を呼び出し、その後に文字列"--> From running Simple Function A"をconsoleに表示する、としている。
