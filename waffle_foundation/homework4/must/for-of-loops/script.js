@@ -390,21 +390,21 @@ function getOperatedArray(Array, Operator, Number) {
   const Array3 = [];
 
   //forを使いArrayのelementをひとつずつ見て、それぞれのOperatorの場合に行うelementを含んだ計算式を、新しい配列のArray3にpushする。
-    for (const element of Array) {
-      if (Operator === "+") {
-        Array3.push(element + Number);
-      } else if (Operator === "-") {
-        Array3.push(element - Number);
-      } else if (Operator === "*") {
-        Array3.push(element * Number); 
-      } else if (Operator === "/") {
-        Array3.push(element / Number);
-      } else if (Operator === "**") {
-        Array3.push(element ** Number);
-      } else if (Operator === "%") {
-        Array3.push(element % Number);
-      }
+  for (const element of Array) {
+    if (Operator === "+") {
+      Array3.push(element + Number);
+    } else if (Operator === "-") {
+      Array3.push(element - Number);
+    } else if (Operator === "*") {
+      Array3.push(element * Number); 
+    } else if (Operator === "/") {
+      Array3.push(element / Number);
+    } else if (Operator === "**") {
+      Array3.push(element ** Number);
+    } else if (Operator === "%") {
+      Array3.push(element % Number);
     }
+  }
 
   //その結果をpushされたArray3を返す。
   return Array3; 
@@ -468,6 +468,9 @@ console.log(!3 >= 3); // => false
 
 
 // 3.
-console.log(3 === 3 && 1); // => 1;     "3 === 3"と"1"のどちらも真値(Truthy)であるため、最後のオペランドの値である"1"が返される。
-console.log(1 > 2 || 2 > 2 || 3 > 2); // => true;     "1 > 2"と"2 > 2"、"3 > 2"の全てが真値であるため、最後のオペランドの値である"true"が返される。
-console.log(5 < 5 || 75 < 74); // => false;     "5 < 5"と"75 < 74"のどちらも真値であるため、最後のオペランドの値である"false"が返される。
+console.log(3 === 3 && 1); // => 1;
+//"3 === 3"と"1"のどちらも真値(Truthy)であるため、最後のオペランドの値である"1"が返される。
+console.log(1 > 2 || 2 > 2 || 3 > 2); // => true;
+//"1 > 2"と"2 > 2"、"3 > 2"の全てが真値であるため、最後のオペランドの値である"true"が返される。
+console.log(5 < 5 || 75 < 74); // => false;
+//"5 < 5"と"75 < 74"のどちらも真値であるため、最後のオペランドの値である"false"が返される。
