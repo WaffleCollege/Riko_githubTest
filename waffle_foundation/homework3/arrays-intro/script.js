@@ -33,7 +33,7 @@ console.log(last(["Damiano", "Victoria", "Thomas", "Ethan"])); // => Ethan
 /*
 与えられた配列の最後の要素を返すことはできているが、このコードが適切かどうかは分からない。
 lengthは配列の要素を1からカウントし、indexは配列の要素を0からカウントするため、"length - 1"と書くことでindexのカウントに対応させることが可能となる。
-※配列入門　授業スライド6、21枚目
+※授業スライド「配列入門」6,21枚目
 */
 
 
@@ -55,7 +55,9 @@ console.log(push(array, 10)); // => 10
 console.log(array); // => [1, 2, 3, 4, 5, 10];
 
 
-//※.pushメゾットを使った場合の解き方
+/*
+※.pushメゾットを使った場合の解き方
+*/
 let arrayPush = [1, 2, 3, 4];
 
 function push(arrayPush, value) {
