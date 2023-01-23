@@ -31,17 +31,9 @@ console.log(getRandomInt(0, 10))
   
 // オリジナルおみくじ
 function getOmikuji() {
-  const kuji = ["吉", "大吉", "小吉", "中吉", "凶"];
-  const ramdome = kuji[Math.floor(Math.random() * kuji.length)];
-  return ramdome;
+  const kuji = ["大吉", "中吉", "小吉", "吉", "凶"];
+  const ramdom = kuji[Math.floor(Math.random() * kuji.length)];
+  return ramdom;
 }
 
 console.log(getOmikuji())
-
-
-
-
-
-
-
-
